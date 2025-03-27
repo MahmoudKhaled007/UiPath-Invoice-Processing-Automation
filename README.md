@@ -21,6 +21,9 @@ This project automates the extraction, processing, and management of vendor invo
 
 - Email Notification: Sends automated emails with report attachments upon completion.
 
+## Demo
+- [Watch the RPA Invoice Processing Demo](https://www.youtube.com/watch?v=-8cm1Nrzdwk)
+  
 ## Technologies Used
 
 - UiPath Studio & Orchestrator
@@ -72,8 +75,9 @@ This project automates the extraction, processing, and management of vendor invo
 
 - Processing Errors: Logs exceptions for further review.
 
-## Contributing
-Contributions to enhance the functionality or performance of the application are welcome. Please fork the repository and submit a pull request with your proposed changes.
+## Acknowledgements
+
+A big thank you to the UiPath community for providing resources, tutorials, and a collaborative platform for learning and growing in the field of RPA.
 
 ## License
 This project is licensed under the Apache-2.0 License. See the LICENSE file for more details.
