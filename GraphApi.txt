@@ -1,0 +1,4 @@
+Application (client) ID:  cc38761d-192e-43c6-9419-8bc0bc2cb8ae
+Directory (tenant) ID:    9aa99673-73ba-430c-acea-ba1c00766af0
+
+add required permission: Files.ReadWrite.All or Sites.ReadWrite.All

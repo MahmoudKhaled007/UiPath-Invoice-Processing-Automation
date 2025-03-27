@@ -1,0 +1,26 @@
+1- When robot start working it firstly it opens browser and redirect to 
+"ACMEELogIn.xaml" Workflow:
+"https://acme-test.uipath.com/login"
+	2- Preform Login steps by entering email and password (previously registerd)
+	3- preforming well logs structure to be more informative for client when it 	runs it to make him know in which step bot is working right now 
+	4- after waiting for page to appear it fill username and password(that saved 	on cloud it will retrieve it) and click login, if unsuccessful login bot 	will retry to login 3 times and after successful login it will be redirected 	to homepage automatically and after confirming that is homepage
+"ExtractDataFromExcel.xaml" Workflow:
+	5- Bot will get folder path for excel from cloud also
+	6- Bot will open Microsoft Excel and read this sheet and read list of 	vendors names(DE763212,FR453231,IT754893,RO123456,RO254678) and add new 	column with Total invoices for each vendor as INPUT file for Bot
+"QueueDispatcher.xaml"
+	7-After it for each vendor Bot will Upload each vendor name as Queue item on 	Orchestrator to handle them one by one 
+"NavigateToInternalInvoices.xaml"
+	8-Then bot will navigate again to "https://acme-test.uipath.com/" then goes 	to Internal Invoices Tab and click on it then click Download Monthly.
+ "QueuePreformer.xaml"
+	9-preformer or worker robot will retrive queue items to start working on 	it(Vendor Name)
+"DownladMonthlyInvoices.xaml"
+	10- Bot will download invoices from browser for each month of year within 	a loop by filling VendorTaxid and month then clicking download
+"ExtractAndFillDataVendorSheet.xaml"
+	11- Bot will get Download folder path from Orchestrator cloud and check 	for all download files using RegEx.
+	12- For Each Excel file Bot will read all sheet and collect all vendor's 	Data and calculate the total for this vendor and fill Vendors sheet Total 	invoices
+	13- Then set Transciton statues for this item as successful item which 	means extraction and calculating this vendor's total invoices is completed 	successfully.
+"UploadToGoogleDribe.xaml"
+14- Robot will upload the final vendors sheet after collecting all invoices for each vendor and calculating for each vendor what is total invoices number 
+
+"OutputEmail.xaml"
+15- Send a completion mail to all recipients that retrieved from Orchestrator cloud whith attachment of final Vendors sheet Report

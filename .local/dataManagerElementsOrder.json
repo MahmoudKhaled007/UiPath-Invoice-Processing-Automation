@@ -1,0 +1,195 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ExtractDataFromExcel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SelectedExcelFile&Sequence_1",
+        "VendorInvocesWorkbook&TryCatch_1",
+        "dt_VendorsSheet&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "o_dt_VendorsSheet"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "QueueDispatcher.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_VendorsSheet&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "i_dt_VendorsSheet"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "LoginSucceful&Sequence_1",
+        "dt_VendorSheet&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "NavigateToInternalInvoices.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "DownladMonthlyInvoices.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "X&Sequence_1",
+        "Months&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "i_TransctionItem"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "QueuePreformer.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&Flowchart_1",
+        "ShouldStop&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "o_TransactionItem",
+        "o_BrowserUI2"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ExtractAndFillDataVendorSheet.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DownloadsFolder&Sequence_1",
+        "dt_WorkSheet&Sequence_13",
+        "ExcelFiles&Sequence_12",
+        "SearchPattern&Sequence_12"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "i_VendorName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "x&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACMEELogIn.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Username&Sequence_1",
+        "Password&Sequence_1",
+        "LoginButtonPage&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "o_LoginSuccessful"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "CalculateTotalInvoicesByVendor.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "CalculateTotalInvoicesForEachVendor.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_Result&Sequence_2",
+        "TotalInvoiceSum&Sequence_2",
+        "dt_FilteredInvoicesSheet&Sequence_2",
+        "dt_InvoicesSheet&Sequence_2",
+        "SelectedExcelFile&Sequence_1",
+        "VendorInvocesWorkbook&TryCatch_1",
+        "dt_VendorsSheet&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "i_VendorName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "UploadFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Pyy&Sequence_2",
+        "PyOut&Sequence_2",
+        "ScriptOut&Sequence_2",
+        "out2&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "OutputEmail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "GmailCredentials&Sequence_3",
+        "SelectedExcelFile&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Upload.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Password&Sequence_1",
+        "Foundd&Sequence_2",
+        "SelectedExcelFile&Sequence_1",
+        "PassString&Sequence_1",
+        "Username&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test Cases/Unit Testing/TC_ExtractDataFromExcel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
