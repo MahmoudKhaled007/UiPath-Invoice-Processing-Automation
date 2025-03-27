@@ -74,6 +74,38 @@ This project automates the extraction, processing, and management of vendor invo
 - Download Issues: Retries before marking an error.
 
 - Processing Errors: Logs exceptions for further review.
+- 
+## Installation
+
+Make sure your system fulfills the requirements for UiPath software as outlined in the official [UiPath documentation](https://docs.uipath.com).
+
+### UiPath Tools Required
+
+- **UiPath Studio**
+- **UiPath Assistant**
+- **UiPath Automation Cloud** (optional for deployment)
+
+### Steps for UiPath Studio Installation:
+
+1. Download and install UiPath Studio from [here](https://www.uipath.com/start-trial).
+2. Follow the instructions in the [UiPath Studio Documentation](https://docs.uipath.com/studio/docs).
+
+### How to Connect to UiPath Automation Cloud:
+
+1. Sign in to your UiPath Automation Cloud account.
+2. Link your local machine to the cloud for workflow deployment.
+
+---
+## Usage
+
+To execute the RPA workflow locally, follow these steps:
+
+1. Download or clone this repository.
+2. Open **UiPath Studio**.
+3. Open the `Main.xaml` file from the downloaded repository.
+4. Click **Run** to initiate the automation.
+
+---
 
 ## Acknowledgements
 
